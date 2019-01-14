@@ -36,7 +36,9 @@ module.exports = {
     alias: { // 这里配置路径别名
       '@': resolve('src'),
       'common': resolve('src/common'),
-      'components': resolve('src/components')
+      'components': resolve('src/components'),
+      'api': resolve('src/api'),
+      'base': resolve('src/base')
     }
   },
   module: {
